@@ -1,0 +1,66 @@
+/* Cabeçalho */
+.cabecalho {
+  background-color: #020024;
+  padding: 2rem 0;
+}
+
+.cabecalho > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.fa-solid.fa-terminal {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.cabecalho .menu {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.cabecalho .menu .item-menu {
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.cabecalho .container-redes-sociais-menu > a {
+  color: #fff;
+  font-size: 2.2rem;
+  transition: transform .3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  display: inline-block;
+  margin-left: 0.5rem;
+}
+
+.cabecalho .container-redes-sociais-menu > a:hover {
+  transform: scale(1.2);
+}
+
+.cabecalho .underline::after {
+  content: "";
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  transform: scaleX(0);
+  height: 0.2rem;
+  background-color: white;
+  transition: transform .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+.cabecalho .item-menu:hover~.underline::after {
+  transform: scaleX(1);
+}
+
+.cabecalho .btn-menu-toggle {
+  display: none;
+}
+
+.cabecalho .btn-redes-sociais {
+  display: none;
+}
+
+/* ============================== */
