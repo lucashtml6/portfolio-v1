@@ -1,4 +1,19 @@
-@media (max-width: 700px) { /* Menu responsivo */
+@media (max-width: 817px) {
+  .container-painel .texto-painel > h2 {
+    font-size: 3rem;
+  }
+  
+  .container-painel .texto-painel > h1 {
+    font-size: 2rem;
+  }
+
+  .container-painel .box-imagem-painel {
+    max-width: 30rem;
+  }
+}
+
+@media (max-width: 700px) {
+  /* Menu */
   .cabecalho {
     padding: 1.5rem 0;
   }
@@ -35,7 +50,7 @@
   }
 
   .cabecalho .menu {
-    background-color: #020024;
+    background-color: #000;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,7 +104,7 @@
     height: 4rem;
     width: 4rem;
     cursor: pointer;
-    background-color: #020024;
+    background-color: #000;
     border-radius: 50%;
     transition: .6s cubic-bezier(0.18, 0.89, 0.32, 1.28);
   }
@@ -102,7 +117,7 @@
     position: fixed;
     bottom: 7rem;
     right: 2.3rem;
-    background-color: #020024;
+    background-color: #000;
     border-radius: 1rem;
     visibility: hidden;
     overflow: hidden;
@@ -123,4 +138,50 @@
   .cabecalho.on .btn-redes-sociais {
     transform: rotate(135deg);
   }
+  /* =============================== */
+
+  /* Painel */
+  main { 
+    height: calc(100vh - 65px);
+  }
+
+  .container-painel {
+    flex-direction: column-reverse;
+  }
+
+  .container-painel .texto-painel > h2 {
+    font-size: 3rem;
+  }
+  
+  .container-painel .texto-painel > h1 {
+    font-size: 2.3rem;
+  }
+
+  .container-painel .box-imagem-painel {
+    max-width: 25rem;
+  }
+  /* =============================== */
+}
+
+@media (max-width: 363px) {
+  /* Menu */
+  .cabecalho .menu .item-menu {
+    color: #fff;
+    font-size: 1.6rem;
+  }
+  /* =============================== */
+
+  /* Painel */
+  .container-painel .texto-painel > h2 {
+    font-size: 2.4rem;
+  }
+  
+  .container-painel .texto-painel > h1 {
+    font-size: 1.9rem;
+  }
+
+  .container-painel .box-imagem-painel {
+    max-width: 20rem;
+  }
+  /* =============================== */
 }

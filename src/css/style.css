@@ -1,2 +1,55 @@
+/* Painel */
+main { 
+  height: calc(100vh - 73px);
+  background: #000;
+  background: linear-gradient(180deg, #000007 50%, #29010f 110%);
+}
 
+main > div {
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.container-painel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0 2rem;
+}
+
+.container-painel .texto-painel {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-painel .texto-painel > h2 {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+}
+
+.container-painel .texto-painel > h1 {
+  font-weight: 300;
+  font-size: 2.7rem;
+  font-family: 'Fira code';
+  margin-top: -.8rem;
+}
+
+.container-painel .texto-painel > h1::after {
+  content: "_";
+  animation: infinite piscar .8s;
+}
+
+
+.container-painel .box-imagem-painel {
+  max-width: 40rem;
+}
+
+.container-painel .box-imagem-painel > img {
+  width: 100%;
+}
+/* =========================== */
 
