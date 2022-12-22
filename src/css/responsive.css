@@ -163,6 +163,26 @@
   /* =============================== */
 }
 
+@media (max-width: 500px) {
+  /* Sobre Mim*/
+  .texto-sobre-mim {
+    font-size: 1.3rem;
+  }
+  
+  .btn-cv {
+    text-align: center  ;
+    font-size: 1.1rem;
+    padding: 1.1rem 0;
+    width: 60%;
+  }
+
+  .imagem-sobre-mim {
+    width: 17rem;
+    height: 17rem;
+  }
+  /* =============================== */
+}
+
 @media (max-width: 363px) {
   /* Menu */
   .cabecalho .menu .item-menu {
@@ -182,6 +202,12 @@
 
   .container-painel .box-imagem-painel {
     max-width: 20rem;
+  }
+  /* =============================== */
+
+  /* Sobre Mim*/
+  .texto-sobre-mim {
+    font-size: 1.1rem;
   }
   /* =============================== */
 }
