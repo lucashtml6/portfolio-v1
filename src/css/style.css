@@ -99,3 +99,42 @@ main > div {
 }
 /* =========================== */
 
+/* Habilidades */
+.main-habilidades {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-habilidades > div {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 49rem;
+  gap: 20px
+}
+
+.container-habilidade {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: .2s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+.container-habilidade:hover {
+  transform: translateY(-5px);
+}
+
+.container-habilidade > img {
+  width: 15rem;
+  border-radius: 1rem;
+}
+
+.container-habilidade > span {
+  color: #fff;
+  margin-top: .6rem;
+  font-size: 1.3rem;
+}
+/* =========================== */
+
