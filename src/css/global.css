@@ -1,0 +1,14 @@
+main { 
+  background: #000;
+  background: linear-gradient(180deg, #000007 50%, #29010f 110%);
+  height: calc(100vh - 73.6px);
+}
+
+main > div {
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+
+
