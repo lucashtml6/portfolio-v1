@@ -195,6 +195,12 @@
   } 
   /* =============================== */
 
+  /* Sobre Mim*/
+  .texto-sobre-mim {
+    text-align: center;
+  }
+  /* =============================== */
+
   /* Projetos */
   .seta {
     font-size: 3rem;
