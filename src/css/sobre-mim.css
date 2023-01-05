@@ -1,6 +1,6 @@
 /* Sobre Mim */
 .main-sobre-mim {
-  height: calc(100vh - 73.6px);
+  height: calc(100vh - 73px);
   display: flex;
   flex-direction: column;
   align-items: center;

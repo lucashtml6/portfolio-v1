@@ -1,5 +1,7 @@
 .main-painel {
-  height: calc(100vh - 73.6px);
+  height: calc(100vh - 73px);
+  display: flex;
+  justify-content: center;
 }
 
 .container-painel {

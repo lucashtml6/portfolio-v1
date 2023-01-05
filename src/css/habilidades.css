@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: calc(100vh - 73.6px);
+  height: calc(100vh - 73px);
 }
 
 .main-habilidades > div {
